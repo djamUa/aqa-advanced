@@ -1,10 +1,10 @@
-// const age =30;
+// // const age =30;
 
-// console.log(age)
+// // console.log(age)
 
-var firstName = ("Vlad");
-console.log (firstName);
+// var firstName = ("Vlad");
+// console.log (firstName);
 
-let userAge = (30);
-let SecondName = ("Dziubenko");
-console.log (userAge,SecondName)
+// let userAge = (30);
+// let SecondName = ("Dziubenko");
+// console.log (userAge,SecondName)
