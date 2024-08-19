@@ -15,10 +15,6 @@
 // Кількість нульових чисел: 2
 // Ваша програма повинна коректно підрахувати та вивести кількість позитивних, негативних та нульових чисел в заданому масиві.
 
-
-
-
-
 const numbers = [1, -2, 0, 7, -5, 0, 10, -90];
 
 let positiveCount = 0;
@@ -26,13 +22,13 @@ let negativeCount = 0;
 let zeroCount = 0;
 
 for (let number of numbers) {
-  if (number > 0) {
-    positiveCount++;
-  } else if (number < 0) {
-    negativeCount++;
-  } else {
-    zeroCount++;
-  }
+	if (number > 0) {
+		positiveCount++;
+	} else if (number < 0) {
+		negativeCount++;
+	} else {
+		zeroCount++;
+	}
 }
 
 console.log(`Кількість позитивних чисел: ${positiveCount}`);

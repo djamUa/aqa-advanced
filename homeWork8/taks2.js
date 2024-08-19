@@ -6,15 +6,13 @@
 // Деструктуризуйте назву та автора книги з об'єкта book.
 // Виведіть деструктуризовані змінні в консоль
 
-
 const book = {
-    title: 1984,
-    author: "George Orwell",
-    year: 1984
-  };
+	title: 1984,
+	author: "George Orwell",
+	year: 1984,
+};
 
-  const { title, author } = book;
-  
-  console.log(title); 
-  console.log(author)
-  
+const { title, author } = book;
+
+console.log(title);
+console.log(author);

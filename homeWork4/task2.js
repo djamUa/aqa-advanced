@@ -1,11 +1,10 @@
 let firstPlayer = "Mendy";
 let secondPlayer = "Pitter";
 
-let firstGreating = "Hello, my name is "+firstPlayer+" and "+secondPlayer+"";
+let firstGreating = "Hello, my name is " + firstPlayer + " and " + secondPlayer + "";
 
-console.log (firstGreating);
+console.log(firstGreating);
 
+let sayHello = `Hello, my name is ${firstPlayer} and ${secondPlayer}`;
 
-let sayHello =  `Hello, my name is ${firstPlayer} and ${secondPlayer}`;
-
-console.log (sayHello)
+console.log(sayHello);

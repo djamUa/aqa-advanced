@@ -4,8 +4,7 @@
 // Створіть змінну width і присвойте їй числове значення ширини прямокутника.
 // Обчисліть площу прямокутника за формулою length * width і виведіть результат.
 
-
 let length = 40;
 let width = 20;
 let rectangle = length * width;
-console.log (rectangle)
+console.log(rectangle);

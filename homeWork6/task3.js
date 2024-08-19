@@ -7,14 +7,13 @@
 // Якщо ordered дорівнює нулю — повернути рядок з повідомленням - “Your order is empty”
 // У разі якщо товарів на складі вистачає — повернути рядок з повідомленням - “Your order is accepted”
 
-
 function checkOrder(available, ordered) {
-    if (ordered === 0) {
-      return "Your order is empty";
-    } else if (ordered > available) {
-      return "Your order is too large, we don’t have enough goods.";
-    } else {
-      return "Your order is accepted";
-    }
-  }
-    console.log(checkOrder(5, 50));
+	if (ordered === 0) {
+		return "Your order is empty";
+	} else if (ordered > available) {
+		return "Your order is too large, we don’t have enough goods.";
+	} else {
+		return "Your order is accepted";
+	}
+}
+console.log(checkOrder(5, 50));

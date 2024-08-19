@@ -1,4 +1,3 @@
-
 // Завдання 4: Відбір парних чисел
 
 // Вам потрібно створити програму, яка відфільтровує парні числа з масиву.
@@ -9,8 +8,7 @@
 // Cтворіть новий масив, який міститиме лише парні числа.
 // Виведіть отриманий масив парних чисел на консоль.
 
-
 const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const evenNumbers = array.filter(value => value % 2 === 0);
+const evenNumbers = array.filter((value) => value % 2 === 0);
 
-console.log(evenNumbers)
+console.log(evenNumbers);

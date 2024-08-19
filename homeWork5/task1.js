@@ -1,4 +1,3 @@
-
 // Створіть нову гілку в вашому репозиторії
 // Створіть нову папку у вашому проекті де ви будете зберігати файли з домашкою
 // Кожне з завдань має бути виконане в окремому файлі, наприклад task1.js, task2.js і т.д.
@@ -17,15 +16,15 @@
 const averageGrade = 85;
 
 if (averageGrade < 60) {
-    console.log("Незадовільно");
-  } else if (averageGrade >= 60 && averageGrade <= 70) {
-    console.log("Задовільно");
-  } else if (averageGrade >= 71 && averageGrade <= 80) {
-    console.log("Добре");
-  } else if (averageGrade >= 81 && averageGrade <= 90) {
-    console.log("Дуже добре");
-  } else if (averageGrade >= 91 && averageGrade <= 100) {
-    console.log("Відмінно");
-  } else {
-    console.log("Некоректне значення середньої оцінки");
-  }
+	console.log("Незадовільно");
+} else if (averageGrade >= 60 && averageGrade <= 70) {
+	console.log("Задовільно");
+} else if (averageGrade >= 71 && averageGrade <= 80) {
+	console.log("Добре");
+} else if (averageGrade >= 81 && averageGrade <= 90) {
+	console.log("Дуже добре");
+} else if (averageGrade >= 91 && averageGrade <= 100) {
+	console.log("Відмінно");
+} else {
+	console.log("Некоректне значення середньої оцінки");
+}

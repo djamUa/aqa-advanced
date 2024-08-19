@@ -8,14 +8,11 @@
 // courses: масив, представляє список курсів, які він вивчає (наприклад, ["Математика", "Історія", "Програмування"]).
 // Виведіть об'єкт student в консоль.
 
-
-
 const student = {};
 
 student.firstName = "Vlad";
 student.lastName = "Dziubenko";
 student.age = 32;
 student.courses = ["Математика", "Історія", "Програмування"];
-
 
 console.log(student);

@@ -7,7 +7,7 @@
 
 let radius = 10;
 let height = 20;
-let cylinder = Math.PI * Math.pow (radius,2) * height;
+let cylinder = Math.PI * Math.pow(radius, 2) * height;
 cylinder = cylinder.toFixed(2);
 
-console.log (cylinder)
+console.log(cylinder);

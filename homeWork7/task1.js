@@ -8,23 +8,23 @@
 // Викличте функцію handleNum і передайте в якості аргументів довільне число і дві функції які ви створили раніше
 
 function handleNum(number, handleEven, handleOdd) {
-    if (number % 2 === 0) {
-      handleEven();
-    } else {
-      handleOdd();
-    }
-  }
-  
-  // Функція для обробки парного числа
-  function handleEven() {
-    console.log("number is even");
-  }
-  
-  // Функція для обробки непарного числа
-  function handleOdd() {
-    console.log("number is odd");
-  }
-  
-  // Виклик функції handleNum з довільним числом і колбек функціями
-  handleNum(10, handleEven, handleOdd); // "number is even"
-  handleNum(7, handleEven, handleOdd);  // "number is odd"
+	if (number % 2 === 0) {
+		handleEven();
+	} else {
+		handleOdd();
+	}
+}
+
+// Функція для обробки парного числа
+function handleEven() {
+	console.log("number is even");
+}
+
+// Функція для обробки непарного числа
+function handleOdd() {
+	console.log("number is odd");
+}
+
+// Виклик функції handleNum з довільним числом і колбек функціями
+handleNum(10, handleEven, handleOdd); // "number is even"
+handleNum(7, handleEven, handleOdd); // "number is odd"
