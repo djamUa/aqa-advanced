@@ -6,5 +6,5 @@
 // console.log (firstName);
 
 // let userAge = (30);
-// let SecondName = ("Dziubenko");
+// let SecondName = ();
 // console.log (userAge,SecondName)
